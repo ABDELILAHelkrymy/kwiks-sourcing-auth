@@ -9,16 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@mui/material-nextjs": "^5.15.11",
+    "@react-keycloak/ssr": "^3.3.0",
+    "axios": "^1.6.7",
+    "next": "14.1.2",
+    "next-auth": "^4.24.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.2"
+    "react-hook-form": "^7.51.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@testing-library/react": "^14.2.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.2"
+    "eslint-config-next": "14.1.2",
+    "typescript": "^5"
   }
 }
