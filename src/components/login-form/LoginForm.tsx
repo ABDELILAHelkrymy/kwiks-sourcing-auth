@@ -5,6 +5,7 @@ import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { Root } from '@/components/ui/DividerRoot';
 import { StyledCustomLink } from '@/components/ui/StyledCustomLink';
 import ProviderButton from '../lib/provider-button/ProviderButton';
+import SignupAlertDialog from '../shared/SignupAlertDialog';
 import { colors } from '@/utils/theme/colors'
 import { ZodType, z } from 'zod';
 import { useForm } from 'react-hook-form';
@@ -48,7 +49,7 @@ const LoginForm = (props: Props) => {
         <form onSubmit={handleSubmit(handleLogin)}>
             <Box width={400}>
                 <Typography variant="h4">Welcome back!</Typography>
-                <Typography variant="body2" color={colors.gray["500"]}>Don&apos;t have an account? <StyledCustomLink href="#">Sign up</StyledCustomLink></Typography>
+                <Typography variant="body2" color={colors.gray["500"]}>Don&apos;t have an account? <SignupAlertDialog /></Typography>
                 <Box mt={4} display='flex' flexDirection="column" alignContent="space-between">
                     <FormControl variant="standard" sx={{ marginBottom: "16px" }}>
                         <Typography variant="body2" color={colors.black} fontWeight={600}>Email Address</Typography>

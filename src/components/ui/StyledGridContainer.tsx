@@ -3,7 +3,7 @@ import { colors } from "@/utils/theme/colors";
 import { Grid, styled } from "@mui/material";
 
 export const StyledGridContainer = styled(Grid)(({ theme }) => ({
-    height: "100vh",
+    height: "100%",
     backgroundImage: "url(images/background/welcome-bg.png)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",

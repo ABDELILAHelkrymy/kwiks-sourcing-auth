@@ -142,6 +142,33 @@ export const theme = createTheme({
         },
       ],
     },
+
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: "15px",
+        },
+      },
+    },
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          boxShadow: "none",
+          background: "#fff",
+          borderRadius: "0px",
+        },
+      },
+    },
+    MuiToolbar: {
+      styleOverrides: {
+        root: {
+          width: "100%",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "space-between",
+        },
+      },
+    },
   },
 });
 
